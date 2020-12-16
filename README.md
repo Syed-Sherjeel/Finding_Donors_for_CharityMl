@@ -8,7 +8,10 @@ pip install sklearn
 pip install matplotlib
 ```
 # Finding_donors
-Major purpose of this project is to develop a machine learning algorithm for a ficticious charity organization.We will develop a model that will allow company to predict wether a certain user have income greater then 50K USD or less.If a person have income greater then 50K Usd this means that person possibly can have enough money to donate to our organization.
+Major purpose of this project is to develop a machine learning algorithm for a ficticious charity organization.We will develop a model that will allow company to predict wether a certain user have income greater then 50K USD or less.If a person have income greater then 50K Usd this means that person possibly can have enough money to donate to our organization.    
+Choose a scikit-learn classifier (e.g., adaboost, random forests) that has a feature_importance_ attribute, which is a function that ranks the importance of features according to the chosen classifier. In the next python cell fit this classifier to training set and use this attribute to determine the top 5 most important features for the census dataset.
+ 
+
 # Getting started
 First we will download required dependencies to get started with this project
 ```
