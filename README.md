@@ -32,7 +32,12 @@ pip install matplotlib
 # Outcome
 Major purpose of this project is to develop a machine learning algorithm for a ficticious charity organization.We will develop a model that will allow company to predict wether a certain user have income greater then 50K USD or less.If a person have income greater then 50K Usd this means that person possibly can have enough money to donate to our organization.    
 Choose a scikit-learn classifier (e.g., adaboost, random forests) that has a feature_importance_ attribute, which is a function that ranks the importance of features according to the chosen classifier. In the next python cell fit this classifier to training set and use this attribute to determine the top 5 most important features for the census dataset.    
-<img src="Capture.PNG" width=750px>
+<img src="Capture.PNG" width=750px>  
+
+# Summary
+So what did we do? We got a data set and we set a target to classify people that make more than $50,000 annually. We cleaned the data, normalized and converted the necessary variables into numerical features so that we can use them in our models. We shuffled and split our data into training and testing sets. We set a baseline predictor and built three other models. We chose the ADABOOST model as the best choice. We tuned it further and made it slightly better. We tried to use the model with only the five main features but it performed slightly worse. 
+
+
 # Usage Example
 Our main code in written in a well documented notebook that explains everything perform data acquistion to data preprocessing and eventually data modelling with various contraints.
 However here are some usage examples,
