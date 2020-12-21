@@ -1,5 +1,6 @@
 # Finding_donors
-Major purpose of this project is to develop a machine learning algorithm for a ficticious charity organization.We will develop a model that will allow company to predict wether a certain user have income greater then 50K USD or less.If a person have income greater then 50K Usd this means that person possibly can have enough money to donate to our organization.
+A Charity organization wants to know which factors impact the income of a person.A general trend has been observed that person with income greater then 50k is more likely to donate.
+Now company wants to develope a machine learning infrastructure to target their advertisment and campaigns toward only those person that have income greater then 50k.Company also wants to know which factors impact the income of a person in order to make their advertisment more targeted.
 ### Data
 
 The modified census dataset consists of approximately 32,000 data points, with each datapoint having 13 features. This dataset is a modified version of the dataset published in the paper *"Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid",* by Ron Kohavi. You may find this paper [online](https://www.aaai.org/Papers/KDD/1996/KDD96-033.pdf), with the original dataset hosted on [UCI](https://archive.ics.uci.edu/ml/datasets/Census+Income).
